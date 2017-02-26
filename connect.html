@@ -1,0 +1,73 @@
+---
+layout: page
+title: Connect
+permalink: /connect/
+---	
+	<!-- Main Area -->
+	<div class="main-content" id="connect-main-content">
+	    
+	    <!-- Jumbotron -->
+	    <div class="jumbotron" id="connect-jumbotron">
+	        <div class="flex-wrapper">
+	            <div>
+    	            <h1>Connect With Us</h1>
+	            </div>
+	        </div>
+	    </div>
+	    <!-- End of Jumbotron -->
+	    
+	    <!-- Jumbotron Content Box -->
+	    <div class="jumbotron-content" id="social-links">
+            <a href="https://www.facebook.com/UHREDLabs" class="btn btn-soc" id="facebook">
+                <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/uhredlabs" class="btn btn-soc" id="twitter">
+                <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/uhredlabs/" class="btn btn-soc" id="instagram">
+                <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+            </a>
+
+	    </div>
+	    <!-- End of Jumbotron Content Box -->
+	    
+	    <!-- Third Secs -->
+	    <div class="flex-row">
+	        <div class="third-wrap">
+	            <div class="third-sec third-sec-connect">	   <a href="http://uhentr.slack.com">
+	                <button class="btn btn-default">
+	                    <i class="fa fa-slack fa-lg"></i>
+	                    Join us on Slack
+	                </button>
+	               </a>
+	            </div>
+	        </div>
+	        <div class="third-wrap">
+	            <div class="third-sec third-sec-connect">
+	                <a href="http://bauer.us6.list-manage.com/subscribe?u=616706c847d50051178f99cf8&id=424fd06aa1" target="_blank">
+    	                <button class="btn btn-default">
+    	                    Subscribe to our newsletter
+    	                </button>
+	                </a>
+	            </div>
+	        </div>
+	        <div class="third-wrap">
+	            <div class="third-sec third-sec-connect">
+	                <div>
+	                	{% for person in site.data.connect %}
+    	                <p>
+    	                    {{ person.name }}<br/>
+    	                    {{ person.title }}<br/>
+    	                    {{ person.phone }}<br/>
+    	                    <a href="mailto:{{ person.email }}">{{ person.email }}
+    	                    </a><br/>
+    	                    {{ person.office }}<br>
+	                    </p>
+	                    {% endfor %}
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+		
+	</div>
+	<!-- End of Main Area -->
