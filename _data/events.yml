@@ -1,6 +1,6 @@
 ---
 - title: Startup Career Fair
-  date: Friday, March 24, 2017 1:00 pm - 4:00 pm
+  when: Friday, March 24, 2017 1:00 pm - 4:00 pm
   location: TMCx (2450 Holcombe Blvd)
   description: Startup Career Fair is a one-day event connecting local startups with
     entrepreneurial-minded students seeking internships and experienced professionals
@@ -9,6 +9,6 @@
     to the talent they need, and fosters the entrepreneurial ecosystem in Texas.
   link: http://startupcareerfairhtx.com/
 - title: RED Labs application deadline
-  date: Friday, March 31, 2017
+  when: Friday, March 31, 2017
   description: Apply to be a part of the RED Labs summer accelerator program.
   link: http://redlabs.uh.edu/apply/
