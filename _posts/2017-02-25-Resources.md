@@ -1,5 +1,6 @@
 ---
 title: Resources
+menu: sidebar
 permalink: /resources/
 layout: resources
 ---

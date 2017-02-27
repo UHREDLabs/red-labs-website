@@ -4,13 +4,10 @@
 	<aside class="sidebar-left">
 		<a class="company-logo" href="/"></a>
 		<div class="sidebar-links">
-			<a href="/about/" {% if current[1] == 'about' %}class='selected'{% endif %}>About</a>
-			<a href="/accelerator/" {% if current[1] == 'accelerator' %}class='selected'{% endif %}>Accelerator</a>
-			<a href="/courses/" {% if current[1] == 'courses' %}class='selected'{% endif %}>Courses</a>
-			<a href="/programs/" {% if current[1] == 'programs' %}class='selected'{% endif %}>Programs</a>
-			<a href="/resources/" {% if current[1] == 'resources' %}class='selected'{% endif %}>Resources</a>
-			<a href="/events/" {% if current[1] == 'events' %}class='selected'{% endif %}>Events</a>
-			<a href="/connect" {% if current[1] == 'about' %}class='connect'{% endif %}>Connect</a>
+      	{% for item in site.menus.sidebar %}
+        <a href="{{ item.url }}" {% if page.url == item.url %}class='selected'{% endif %}>{{ item.title }}</a>
+        </a>
+      {% endfor %}
 		</div>
 	</aside>
 	<!-- End of Sidebar Menu -->
