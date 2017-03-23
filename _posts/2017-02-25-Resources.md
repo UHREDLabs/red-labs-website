@@ -4,10 +4,13 @@ menu: sidebar
 permalink: /resources/
 layout: resources
 ---
-# Recommended readings from the RED Labs Team
+# Recommended readings and resources from the RED Labs Team
 
 ## Disciplined entrepreneurship
 * [Disciplined Entrepreneurship: 24 Steps to a Successful Startup, by Bill Aulet](https://www.amazon.com/dp/B00DQ97TWO/)
+
+## How to Start a Startup
+* [How to Start a Startup, by Sam Altman](http://startupclass.samaltman.com)
 
 ## Lean startup books
 * [The Lean Startup, by Eric Ries](http://theleanstartup.com/book)
